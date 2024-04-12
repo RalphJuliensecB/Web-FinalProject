@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Argueta - Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!--Social link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Alex Argueta</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="music.html">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shows.html">Shows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section bg-dark text-white text-center py-5">
+    <div class="container">
+        <h1>Welcome to Alex Argueta</h1>
+        <p class="lead">Discover the latest music, news, and upcoming shows.</p>
+    </div>
+</section>
+
+<!-- Latest Music Releases -->
+<section class="latest-music py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Latest Music</h2>
+        <div class="blur-bg"></div>
+        <div class = "twelve_music">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/12v6HT1XRKUxd7DncX4Ksz?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class = "heartAttack_music">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1OGzb9lo01d8ZL2QoEbn4w?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- Upcoming Shows Preview -->
+<section class="upcoming-shows py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Upcoming Shows</h2>
+        <div class="show-item">
+            <h3>Madison Square Garden
+
+                April 15, 2024, 8:00 PM</h3>
+            <a href="shows.html?show=1" class="btn btn-info mt-3">Show Details</a>
+            <div id="details1" style="display:none;">
+            </div>
+        </div>
+        <div class="show-item">
+            <h3>Hollywood Bowl
+
+                May 10, 2024, 7:30 PM</h3>
+            <a href="shows.html?show=2" class="btn btn-info mt-3">Show Details</a>
+            <div id="details1" style="display:none;">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Newsletter Signup -->
+<section id="stay-updated" class="bg-light py-5">
+    <div class="container text-center">
+        <h2>Stay Updated</h2>
+        <p class="lead">Subscribe to our newsletter to get the latest news and updates.</p>
+        <form id="newsletter-form">
+            <div class="form-group">
+                <input type="email" class="form-control" id="emailInput" placeholder="Enter your email address" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p id="form-feedback" class="form-feedback mt-3" style="display: none;"></p>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <!-- Social media links -->
+        <footer class="bg-dark text-white py-4 text-center">
+            <div class="container">
+                <h5>Follow Alex Argueta</h5>
+                <div>
+                    <a href="https://twitter.com/yourprofile" class="social-icon" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/alexargueta26/" class="social-icon" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@alex_argueta9386/featured" class="social-icon" target="_blank" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom Script -->
+<script src="script.js"></script>
+</body>
+</html>
