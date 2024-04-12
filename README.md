@@ -14,6 +14,11 @@ Usage
 
 This website is used to promote Alex Argueta's music and keep his fans updated with the latest news and concert dates. Visitors can listen to tracks, view upcoming event details, and contact Alex directly through the website.
 
+Technology Stack
+
+Frontend: HTML, CSS (Bootstrap), JavaScript
+
+
 Made By 
 
 Ralph Julien
