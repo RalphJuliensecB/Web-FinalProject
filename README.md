@@ -1,5 +1,4 @@
 Features
-
 Home Page: Introduction and links to other sections.
 About Page: Biography and achievements of Alex Argueta.
 Music Page: Embedded music player and latest music releases.
