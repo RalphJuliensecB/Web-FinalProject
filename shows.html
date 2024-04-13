@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Argueta - Shows</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!--Social link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar content -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alex Argueta</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shows.html">Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Upcoming Shows</h2>
+        <div class="row">
+            <!-- First Show Card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://img.msg.com/wp-content/uploads/2019/05/VLP-2.0-Madison-Square-Garden.jpg?w=500" class="card-img-top" alt="Show Image 1">
+                        <h5 class="card-title">New York City</h5>
+                        <p class="card-text">Madison Square Garden</p>
+                        <p class="card-text">April 15, 2024, 8:00 PM</p>
+                        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#showDetails1" aria-expanded="false" aria-controls="showDetails1">
+                            Show Details
+                        </button>
+                        <div class="collapse" id="showDetails1">
+                            <div class="card card-body mt-3">
+                                Join us for an unforgettable night of music at the iconic Madison Square Garden.
+                            </div>
+                        </div>
+                        <a href="https://www.ticketmaster.com/event/1OGzb9lo01d8ZL2QoEbn4w" class="btn btn-primary mt-3 d-block">Get Tickets</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Second Show Card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://media.cntraveler.com/photos/5a738a118773146711ac0533/16:9/w_2560,c_limit/Hollywood-Bowl__2018_bowl_center_2.jpg" class="card-img-top" alt="Show Image 2">
+                        <h5 class="card-title">Los Angeles</h5>
+                        <p class="card-text">Hollywood Bowl</p>
+                        <p class="card-text">May 10, 2024, 7:30 PM</p>
+                        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#showDetails2" aria-expanded="false" aria-controls="showDetails2">
+                            Show Details
+                        </button>
+                        <div class="collapse" id="showDetails2">
+                            <div class="card card-body mt-3">
+                                Experience a night of mesmerizing music under the stars at the Hollywood Bowl.
+                            </div>
+                        </div>
+                        <a href="https://www.ticketmaster.com/event/0zS4KC2xS17AxtotqZPgOf" class="btn btn-primary mt-3 d-block">Get Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <!-- Social media links -->
+        <footer class="bg-dark text-white py-4 text-center">
+            <div class="container">
+                <h5>Follow Alex Argueta</h5>
+                <div>
+                    <a href="https://twitter.com/yourprofile" class="social-icon" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/alexargueta26/" class="social-icon" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@alex_argueta9386/featured" class="social-icon" target="_blank" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+        <form id="newsletterForm">
+            <input type="email" id="emailInput" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+            <p id="formFeedback"></p>
+        </form>
+        
+    </div>    
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom Script -->
+<script src="script.js"></script>
+</body>
+</html>
